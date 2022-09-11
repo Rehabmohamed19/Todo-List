@@ -28,7 +28,7 @@ background: linear-gradient(135deg,#B8B3E9,#90E0F3,#75F4F4);
 .task-input{
   height: 52px;
   padding: 0 25px;
-  position: relative;
+  /* position: relative; */
 }
 
 .task-input input{
@@ -88,10 +88,9 @@ background: linear-gradient(135deg,#B8B3E9,#90E0F3,#75F4F4);
 .controls .clear-btn{
  
   height: 45px;
-    padding: 9px;
-    margin-right: 18px;
+  padding: 9px;
+  margin-right: 18px;
   border: none;
-
   opacity: 0.9;
   outline: none;
   color: #fff;

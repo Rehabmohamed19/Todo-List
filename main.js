@@ -1,13 +1,12 @@
 const taskInput = document.querySelector(".task-input input");
-const add_Button=document.querySelector(".add-btn");
+const add_Button = document.querySelector(".add-btn");
 const filters = document.querySelectorAll(".filters span");
 const clearAll = document.querySelector(".clear-btn");
 const taskBox = document.querySelector(".task-box");
 
 let editId;
 let isEditTask = false;
-let todos;
-JSON.parse(localStorage.getItem("todo-list"))== null ? todos=[] : todos=JSON.parse(localStorage.getItem("todo-list"));
+let todos=JSON.parse(localStorage.getItem("todo-list"))== null ? todos=[] : todos=JSON.parse(localStorage.getItem("todo-list"));
 
 
 filters.forEach(btn => {
